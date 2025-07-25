@@ -1,111 +1,113 @@
-# 🏥 Hospital Readmission Risk Prediction
+🏥 Hospital Readmission Risk Prediction
+ML-powered System to Predict Patient Readmission within 30 Days
 
-This project predicts the likelihood of a patient being readmitted within 30 days of discharge, focusing on chronic condition cases. Built as part of Learnathon 4.0 (MedTech Domain – Problem Statement 1).
+"Built with purpose during Learnathon 4.0 – MedTech Domain, Problem Statement 1"
 
----
+🚀 Problem Statement
+Predict the likelihood of hospital readmission for patients with chronic conditions using clinical and demographic data — enabling early intervention and smarter care planning.
 
-## 🚀 Problem Statement
+✨ Team Info
+👥 Team ID: MB5_3_NO:12
+👨‍🔬 Members:
 
-Predict hospital readmission risk for patients with chronic conditions using clinical and demographic data.
+Anamu Yashwant (23CSE046)
 
----
+Pichika Rajeev (23CSE079)
 
-## ✨ Team ID and Members
+Aditya Jena (23CSEAIML187)
 
-=>ID : 
+Suraj Meher (23LECSE004)
 
-Team(MB5)_3_NO:12
-
-=>Members :
--Anamu Yashwant (23CSE046)
--Pichika Rajeev (23CSE079)
--Aditya Jena (23CSEAIML187)
--Suraj Meher (23LECSE004)
-
----
-## Presentation 
-
-📂 [Predicting-Hospital-Readmission-Risk-for-Patients-with-Chronic-Conditions.pptx](https://github.com/user-attachments/files/21431369/Predicting-Hospital-Readmission-Risk-for-Patients-with-Chronic-Conditions.pptx)
-
-## 📁 Dataset
-
-- Provided healthcare dataset (CSV)
-- Columns include patient name, admission/discharge dates, age, gender, medical condition, admission type, and more.
-
----
-
-## 🔍 Phase 1: Data Preprocessing
-
-- Converted dates to datetime format.
-- Normalized names to lowercase.
-- Engineered `Length_of_Stay` feature.
-- Created `Readmitted` label:
-  - If a patient is readmitted within 30 days of discharge → `Readmitted = 1`
-  - Otherwise → `0`
-- Removed helper columns post feature creation.
-
----
-
-## 📊 Phase 2: Exploratory Data Analysis (EDA)
-
-- Visualized:
-  - Most common medical conditions
-  - Readmission patterns by age
-  - Admission types and their impact on readmission
-
----
-
-## 🤖 Phase 3: Model Building & Evaluation
-
-- **Model Used**: Random Forest Classifier
-- **Preprocessing**: Label encoding of categorical features
-- **Train-Test Split**: 80-20
-- **Metrics Evaluated**:
-  - Accuracy
-  - Classification Report (Precision, Recall, F1)
-  - Confusion Matrix
-  - ROC AUC Score
-
----
-
-## 🧠 Results
-
-- The model demonstrates reliable performance on unseen data.
-- Key influencing factors include:
-  - Age group
-  - Medical condition
-  - Type of admission
-
----
-
-## 📌 Technologies Used
-
-- Python
-- Pandas, NumPy
-- Seaborn, Matplotlib
-- Scikit-learn
-- Google Colab
-
----
+📽️ Presentation: [Predicting-Hospital-Readmission-Risk-for-Patients-with-Chronic-Conditions.pptx](https://github.com/user-attachments/files/21432474/Predicting-Hospital-Readmission-Risk-for-Patients-with-Chronic-Conditions.pptx)
 
 
-## 📎 Note
+📁 Dataset Details
+Healthcare dataset (CSV format) containing:
 
-This is a basic implementation. Future improvements may include:
-- Handling class imbalance
-- Hyperparameter tuning
-- Feature selection
-- Model comparison
+🧑‍⚕️ Patient Name
 
----
+📅 Admission & Discharge Dates
 
-## 📂 How to Run
+🎂 Age, ⚥ Gender
 
-1. Upload dataset to your Colab environment.
-2. Run all cells in the notebook (`TEAM-118.ipynb`).
-3. All outputs, visualizations, and model metrics will be generated automatically.
+🩺 Medical Condition
 
----
+🏥 Type of Admission
+
+...and more.
+
+🔍 Phase 1: Data Preprocessing
+🔄 Converted admission/discharge dates to datetime format
+
+🧹 Normalized patient names to lowercase
+
+🏥 Engineered Length_of_Stay feature
+
+🧾 Created Readmitted label:
+
+Readmitted within 30 days → 1
+
+Else → 0
+
+🗑️ Removed intermediate columns post feature creation
+
+📊 Phase 2: Exploratory Data Analysis (EDA)
+Key insights visualized:
+
+🔁 Most common chronic conditions
+
+📊 Readmission patterns by age groups
+
+🧭 Influence of admission types on readmission likelihood
+
+🤖 Phase 3: Model Building & Evaluation
+Model Used: Random Forest Classifier
+Preprocessing: Label Encoding for categorical features
+Data Split: 80% Train / 20% Test
+
+Metrics Evaluated:
+
+✅ Accuracy
+
+📄 Classification Report (Precision, Recall, F1-score)
+
+🔁 Confusion Matrix
+
+📈 ROC AUC Score
+
+🧠 Key Results
+Model effectively predicts risk on unseen data.
+Top Influencing Factors:
+
+🎂 Age Group
+
+🩺 Medical Condition
+
+🏥 Type of Admission
+
+⚙️ Tech Stack
+🔧 Tools	📚 Libraries
+Python	Pandas, NumPy
+Google Colab	Scikit-learn
+Jupyter Notebook	Seaborn, Matplotlib
+
+📎 Notes & Future Scope
+This is a foundational implementation. To level it up:
+
+⚖️ Handle class imbalance (e.g., SMOTE)
+
+🎯 Perform hyperparameter tuning
+
+🧠 Try alternative ML models (XGBoost, SVM, etc.)
+
+🔍 Feature selection via mutual info or SHAP
+
+💻 How to Run
+📂 Upload the dataset to your Google Colab environment
+
+▶️ Open and run TEAM-118.ipynb
+
+📊 View all visualizations and model metrics auto-generated
 
 # Hospital-Risk-Predictions
 Learnathon 4.0 
