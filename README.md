@@ -23,6 +23,7 @@ Suraj Meher (23LECSE004)
 
 📁 Dataset Details
 Healthcare dataset (CSV format) containing:
+[healthcare_dataset.csv](https://github.com/user-attachments/files/21432513/healthcare_dataset.csv)
 
 🧑‍⚕️ Patient Name
 
@@ -101,11 +102,6 @@ This is a foundational implementation. To level it up:
 🧠 Try alternative ML models (XGBoost, SVM, etc.)
 
 🔍 Feature selection via mutual info or SHAP
-
-💻 How to Run
-📂 Upload the dataset to your Google Colab environment
-
-▶️ Open and run TEAM-118.ipynb
 
 📊 View all visualizations and model metrics auto-generated
 
