@@ -20,7 +20,7 @@ Team(MB5)_3_NO:12
 -Anamu Yashwant (23CSE046)
 -Pichika Rajeev (23CSE079)
 -Aditya Jena (23CSEAIML187)
--Suraj Meher (23CSE004)
+-Suraj Meher (23LECSE004)
 
 ---
 ## Presentation 
